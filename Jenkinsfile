@@ -1,3 +1,4 @@
+def isDevEnv = ENVIRONMENT.equals("dev")
 pipeline {
     agent any
     stages {
